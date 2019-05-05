@@ -23,3 +23,11 @@ body {
 		}
 	}
 }
+
+.hero {
+	&-body {
+		&.vertical-normal {
+			align-items: normal;
+		}
+	}
+}
