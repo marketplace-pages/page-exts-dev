@@ -1,0 +1,29 @@
+title: ""
+description: ""
+lang: "ru_RU"
+logo: ""
+image: ""
+
+sass:
+  style: compressed
+  sass_dir: assets/css/
+
+twitter:
+  username: ""
+  card: ""
+
+social:
+  name: ""
+  links:
+  - https://twitter.com/
+  - https://vk.com/
+
+author:
+  name: "METADATA Foundation"
+  email: "kitsune.solar@gmail.com"
+  github: "KitsuneSolar"
+  twitter: "KitsuneSolar"
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
