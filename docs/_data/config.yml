@@ -14,8 +14,8 @@ scripts:
   - https://cdn-storage.github.io/scripts/theme/theme.min.js
 
 meta:
-  title: ""
-  keywords: ""
+  title: "CMF/CMS extensions"
+  keywords: "cms, cmf, forums, extensions, drupal, flarum, mediawiki, wordpress, xenforo"
   copyright: ""
   theme-color: "#f3f6f9"
 
