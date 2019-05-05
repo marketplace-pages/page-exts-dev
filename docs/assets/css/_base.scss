@@ -24,10 +24,15 @@ body {
 	}
 }
 
-.hero {
+.ext-hero {
 	&-body {
-		&.vertical-normal {
-			align-items: normal;
+		align-items: normal;
+		.container {
+			display: flex;
+			.box {
+				flex-grow: 1;
+				flex-shrink: 1;
+			}
 		}
 	}
 }
