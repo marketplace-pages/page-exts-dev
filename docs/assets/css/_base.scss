@@ -24,14 +24,20 @@ body {
 	}
 }
 
-.ext-hero {
-	.hero-body {
-		align-items: normal;
-		.container {
-			display: flex;
-			.box {
-				flex-grow: 1;
-				flex-shrink: 1;
+.hero {
+	&.is-fullheight {
+		&.ext-hero {
+			.hero-body {
+				align-items: normal;
+
+				.container {
+					display: flex;
+
+					.box {
+						flex-grow: 1;
+						flex-shrink: 1;
+					}
+				}
 			}
 		}
 	}
