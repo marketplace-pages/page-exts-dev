@@ -32,6 +32,8 @@ body {
 .hero {
 	&.is-fullheight {
 		&.ext-hero {
+			padding-top: 40px;
+			margin-top: -40px;
 			.hero-body {
 				align-items: normal;
 
