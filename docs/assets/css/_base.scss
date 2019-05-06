@@ -29,11 +29,20 @@ body {
 	}
 }
 
+.has-navbar-fixed-top {
+	.hero {
+		&.is-fullheight {
+			&.ext-hero {
+				padding-top: 3.25rem;
+				margin-top: -3.25rem;
+			}
+		}
+	}
+}
+
 .hero {
 	&.is-fullheight {
 		&.ext-hero {
-			padding-top: 40px;
-			margin-top: -40px;
 			.hero-body {
 				align-items: normal;
 
