@@ -17,20 +17,18 @@
 
 	<!-- styles -->
 	{% for font in site.data.config.fonts %}
-	<link rel="stylesheet" href="{{ font }}" />
+		<link rel="stylesheet" href="{{ font }}" />
 	{% endfor %}
 
 	{% for style in site.data.config.styles %}
-	<link rel="stylesheet" href="{{ style }}" />
+		<link rel="stylesheet" href="{{ style }}" />
 	{% endfor %}
 
-	<link rel="stylesheet" href="{{ "
-	/assets/css/theme.css" | relative_url }}" />
+	<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}" />
 	<!-- / styles -->
 
 	<!-- favicon -->
-	<link rel="icon" type="image/x-icon" href="{{ "
-	/assets/img/favicon.ico" | relative_url }}" />
+	<link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" />
 	<!-- / favicon -->
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
